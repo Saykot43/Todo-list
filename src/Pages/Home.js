@@ -10,7 +10,6 @@ const Home = () => {
     event.preventDefault();
     const name = event.target.name.value;
     const mobile = event.target.mobile.value;
-    // console.log(name, mobile);
     const url = `https://warm-badlands-09869.herokuapp.com/userAdd`;
     fetch(url, {
       method: 'POST',
